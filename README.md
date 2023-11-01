@@ -1,5 +1,6 @@
 # Fraud Detection
 Dataset Source from Kaggle: https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
+
 ## What's The Problem?
 Currency exchange is one of the most common operations in the banks. This operation allows the economy to increase; that term is simple. 
 
@@ -68,3 +69,10 @@ This plot illustrates the number of components required to capture 95% of the da
 | GaussianNB Train PCA            | 92.167%   | 96.620%   | 87.384%   | 91.770%   |
 | GaussianNB Validate PCA         | 91.815%   | 97.362%   | 85.986%   | 91.321%   |
 
+The Conclusion: Based on the data, the most effective models are Neural Network and CatBoost 
+| Metric                   | Accuracy  | Precision | Recall    | F1        |
+|--------------------------|-----------|-----------|-----------|-----------|
+| Neural Network Validate  | 99.957%   | 99.914%   | 100.000%  | 99.957%   |
+| CatBoost Validate        | 99.865%   | 99.762%   | 99.970%   | 99.866%   |
+| CatBoost Train           | 99.846%   | 99.729%   | 99.964%   | 99.846%   |
+| Neural Network Train     | 99.725%   | 99.607%   | 99.843%   | 99.725%   |
