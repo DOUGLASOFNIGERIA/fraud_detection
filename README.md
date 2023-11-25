@@ -17,6 +17,20 @@ One of the best and most common ways to solve this problem is through statistica
 - Catboost
 - Neural Network
 
+## Data Description
+
+| Field    | Description                                                                                  |
+|----------|----------------------------------------------------------------------------------------------|
+|id        | Unique identifier for each transaction                                                       |
+|V1-V28    | Anonymized features representing various transaction attributes (e.g., time, location, etc.) |
+|Amount    | The transaction amount                                                                       |
+|Class     | Binary label indicating whether the transaction is fraudulent (1) or not (0)                 |
+
+- Rows: 568,630
+- Columns: 31
+- Null values: 0
+- Duplicates: 0
+  
 ### Exploration Data Analysis
 #### Outlier Event
 ![outlier_graphs](fraud.jpeg)
